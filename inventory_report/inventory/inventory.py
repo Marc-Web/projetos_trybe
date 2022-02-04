@@ -37,7 +37,7 @@ def read(path):
         return read_CSV(path)
     elif type_file[1] == "json":
         return read_JSON(path)
-    else:
+    elif type_file[1] == "xml":
         return read_XML(path)
 
 
